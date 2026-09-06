@@ -5,7 +5,7 @@ import __main__
 
 def input() -> str:
     path = Path(__main__.__file__).parent / 'input.txt'
-    return path.read_text()
+    return path.read_text().strip()
 
 
 def lines() -> list[str]:

@@ -3,8 +3,6 @@ import aoc
 ans = 0
 
 for word in aoc.lines():
-    if not word.strip():
-        continue
     word += ' '
     xyx = False
     double = False
